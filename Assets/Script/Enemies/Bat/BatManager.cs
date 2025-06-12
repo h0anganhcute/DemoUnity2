@@ -35,7 +35,6 @@ public class BatManager : MonoBehaviour
         batAnimator.SetBool("IsMove", false);
         batAnimator.SetInteger("State", 0);
     }
-
     void Update()
     {
         if (isActionLocked) return; 
