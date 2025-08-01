@@ -23,6 +23,6 @@ public class PlayerBullet : MonoBehaviour
         {
             enemy.TakeDamage(1);
         }
-        Destroy(gameObject);
+        Destroy(gameObject,4f);
     }
 }
